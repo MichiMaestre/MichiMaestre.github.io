@@ -3,12 +3,12 @@ title:               "Miguel Angel Maestre Trueba"
 tagline:             
 description:         
 baseurl:             # /
-url: 			           
+url: 			
 github:
   repo:              "https://github.com/MichiMaestre/MichiMaestre.github.io"
-author: 
+author:
   name:              "Miguel Angel Maestre Trueba"
-  email:             "mmaestre@terpmail.umd.edu"          
+  email:             "mmaestre@terpmail.umd.edu"       
   github:            "MichiMaestre"
   facebook:          "michi.maestre"
   linkedin:          "miguel-angel-maestre-trueba"
@@ -23,6 +23,6 @@ plugins:             [jekyll-paginate]
 
 # Collections
 collections:
-  - research
   - projects
-  - service
+  - research
+  - activities
