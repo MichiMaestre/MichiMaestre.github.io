@@ -1,0 +1,28 @@
+# Site Settings
+title:               "Miguel Angel Maestre Trueba"
+tagline:             
+description:         
+baseurl:             # /
+url: 			           
+github:
+  repo:              "https://github.com/MichiMaestre/MichiMaestre.github.io"
+author: 
+  name:              "Miguel Angel Maestre Trueba"
+  email:             "mmaestre@terpmail.umd.edu"          
+  github:            "MichiMaestre"
+  facebook:          "michi.maestre"
+  linkedin:          "miguel-angel-maestre-trueba"
+paginate:            15
+paginate_path:       "/blog/page:num/"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           pretty
+plugins:             [jekyll-paginate]
+
+# Collections
+collections:
+  - research
+  - projects
+  - service
